@@ -5,7 +5,7 @@ const port = 80; // Running on port 80 (change if needed)
 
 const cors = require('cors');
 app.use(cors({
-    origin: 'https://simple-frontend-83b58.web.app/', // Replace with your Firebase Hosting URL
+    origin: '*',
   }));
 
 // Simple API endpoint
