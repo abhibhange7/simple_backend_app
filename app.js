@@ -1,7 +1,7 @@
 // app.js
 const express = require('express');
 const app = express();
-const port = 80; // Running on port 80 (change if needed)
+const port = 5000; // Running on port 80 (change if needed)
 
 const cors = require('cors');
 app.use(cors({
